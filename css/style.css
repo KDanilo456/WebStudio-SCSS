@@ -1,0 +1,50 @@
+.block:nth-child(1)::before {
+  content: url(./img/antenna.png);
+  width: 250px;
+  height: 120px;
+  display: block;
+  text-align: center;
+  background-color: var(--light);
+  line-height: 180px;
+}
+
+.block:nth-child(2)::before {
+  content: url(./img/clock.png);
+  width: 253px;
+  height: 120px;
+  display: block;
+  text-align: center;
+  background-color: var(--light);
+  line-height: 180px;
+}
+
+.block:nth-child(3)::before {
+  content: url(./img/diagram.png);
+  width: 250px;
+  height: 120px;
+  display: block;
+  text-align: center;
+  background-color: var(--light);
+  line-height: 180px;
+}
+
+.modern-technologies::before {
+  content: url(/img/astronaut.png);
+  width: 250px;
+  height: 120px;
+  display: block;
+  text-align: center;
+  background-color: var(--light);
+  line-height: 180px;
+}
+
+ul {
+  list-style: none;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+  padding-inline-start: 0px;
+}/*# sourceMappingURL=style.css.map */
